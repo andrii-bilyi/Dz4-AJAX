@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пошук фільмів</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <div>
+        <h1>Search:</h1>
+        <form id="search-form">
+            <input type="text" id="movie-title" placeholder="Enter the name">
+            <select id="movie-type">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+            <button id="search-button" type="submit">Search</button>
+        </form>
+    </div>    
+
+    <div id="movies">
+        <!-- Фільми будуть відображатися тут -->
+    </div>
+
+    <div id="pagination">
+        <!-- Пагінація буде відображатися тут -->
+    </div>
+
+    <div id="movie-details">
+        <!-- Докладна інформація про фільм буде відображатися тут -->
+        
+    </div>
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
